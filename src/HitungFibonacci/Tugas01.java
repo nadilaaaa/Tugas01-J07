@@ -15,5 +15,11 @@ public class Tugas01 {
         
         String identitas = "Nadila Amalia Pribadi/XRPL3/29";
         Scanner input = new Scanner(System.in);
+        
+        System.out.print("Masukkan jumlah uang:");
+        int uang = input.nextInt();
+        int a = 0, b = 0, c = 0, d = 0, e = 0;
+        int[] nominal = new int[] {100, 500, 1000, 2000, 5000};
+        
     }
 }
